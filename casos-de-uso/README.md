@@ -16,7 +16,7 @@
 - ✨ para "concluído e revisado"
 
 1.  ❌ [UC01. Visualizar Cardápio do Dia](./UC01-Visualizar-Cardapio.md) - *(Ryan)*
-2.  🚧 [UC02. Verificar Informações de Contato](./UC02-Verificar-Informacoes-Contato.md) - *(Ryan)*
+2.  ❌ [UC02. Verificar Informações de Contato](./UC02-Verificar-Informacoes-Contato.md) - *(Ryan)*
 3.  🚧 [UC03. Realizar Perguntas Frequentes](./UC03-Realizar-Perguntas-Frequentes.md) - *(Ryan)*
 4.  🚧 [UC04. Realizar Login](./UC04-Realizar-Login.md) - *(Denilson)*
 5.  🚧 [UC05. Gerenciar Contas de Usuário](./UC05-Gerenciar-Contas.md) - *(Denilson)*
