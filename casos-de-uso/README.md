@@ -21,7 +21,7 @@
 4.  ❌ [UC04. Realizar Login](./UC04-Realizar-Login.md) - *(Denilson)*
 5.  ❌ [UC05. Logoff](./UC05-Logoff.md) - *(Denilson)*
 6.  ❌ [UC06. Gerenciar Contas de Usuário](./UC06-Gerenciar-Contas.md) - *(Denilson)*
-7.  🚧 [UC07. Gerar Relatórios de Consumo e Desperdício](./UC07-Gerar-Relatorios.md) - *(Camilly)*
+7.  ✅ [UC07. Gerar Relatórios de Consumo e Desperdício](./UC07-Gerar-Relatorios.md) - *(Camilly)*
 8.  🚧 [UC08. Configurar Parâmetros do Sistema](./UC08-Configurar-Parametros.md) - *(Camilly)*
 9.  🚧 [UC09. Registrar Consumo de Alimentos por Aluno](./UC09-Registrar-Consumo.md) - *(Camilly)*
 10. 🚧 [UC10. Acessar Informações Nutricionais dos Alimentos](./UC10-Acessar-Informacoes-Nutricionais.md) - **(Indefinido)**

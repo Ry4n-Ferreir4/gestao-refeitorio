@@ -1,6 +1,6 @@
 # Sistema de Controle de Refeitório Escolar
 
-## UC01. Cadastrar Cardápio do Dia
+## UC07. Gerar relatórios de consumo e desperdício.
 
 Este caso de uso descreve as etapas percorridas pelo Gestor para gerar relatórios de consumo e desperdício.
 
