@@ -105,6 +105,5 @@ O objetivo deste projeto é desenvolver um Sistema de Controle de Refeitório Es
 
 ## Autores
 Ryan - [Ryan](https://github.com/Ry4n-Ferreir4) <br>
-Camily - [Camily](https://github.com/Ry4n-Ferreir4) <br>
-Denilson - [Denilson](https://github.com/Ry4n-Ferreir4)
-
+Camilly - [Camilly](https://github.com/camvlira) <br>
+Denilson - [Denilson](https://github.com/DenilsonBO)
