@@ -32,5 +32,7 @@ O sistema deve cadastrar o cardápio do dia e disponibilizá-lo para consulta pe
    2. 👨‍💼 Opta por selecionar uma nova data ou cancelar o cadastro.
    3. ⚙️ Se o Administrador optar por selecionar uma nova data, retorna ao passo 1 do cenário principal.
 
+#### Cenário alternativo 2 – 
+
 ### Exceções
 Não se aplica.
