@@ -19,8 +19,6 @@
 2. ✅ [UC01.2. Editar Cardápio](./UC01.2-Editar-Cardapio.md)
 3. ✅ [UC01.3. Excluir Cardápio](./UC01.3-Excluir-Cardapio.md)
 4. ✅ [UC01.4. Listar Cardápios](./UC01.4-Listar-Cardapios.md)
-5. ✅ [UC02. Verificar Informações de Contato](./UC02-Verificar-Informacoes-de-Contato.md)
-6. ✅ [UC03. Registrar Perguntas Frequentes](./UC03-Registrar-Perguntas-Frequentes.md)
 7. ✅ [UC04. Realizar Login](./UC04-Realizar-Login.md)
 8. ❌ [UC05. Logoff](./UC05-Logoff.md)
 9. ✅ [UC06.1. Criar Conta de Usuário](./UC06.1-Criar-Conta-de-Usuario.md)
@@ -38,4 +36,3 @@
 23. ❌ [UC14. Visualizar Relatórios de Desperdício e Estoque](./UC14-Visualizar-Relatorios-de-Desperdicio-e-Estoque.md)
 24. ❌ [UC15. Registrar Preparo e Distribuição de Refeições](./UC15-Registrar-Preparo-e-Distribuicao-de-Refeicoes.md)
 26. ❌ [UC17. Visualizar Cardápio do Dia](./UC17-Visualizar-Cardapio-do-Dia.md)
-37. ❌ [UC28. Monitorar Qualidade dos Alimentos](./UC28-Monitorar-Qualidade-dos-Alimentos.md)
