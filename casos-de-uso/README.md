@@ -1,6 +1,6 @@
 # Sistema de Controle de Refeitório Escolar
 
-![Diagrama de casos de uso do Sistema de Controle de Refeitório Escolar](Casos-de-Uso.jpg)
+[Visualizar Diagrama de Casos de Uso](https://miro.com/app/board/uXjVKXHctkI=/?share_link_id=950859154365)
 
 ## Atores
 - 👤 Usuário não Logado
