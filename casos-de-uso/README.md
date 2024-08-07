@@ -26,7 +26,6 @@
 11. ✅ [UC06.3. Excluir Conta de Usuário](./UC06.3-Excluir-Conta-de-Usuario.md)
 12. ✅ [UC06.4. Listar Contas de Usuário](./UC06.4-Listar-Contas-de-Usuario.md)
 13. ✅ [UC07. Gerar Relatórios de Consumo e Desperdício](./UC07-Gerenciar-Relatorios-de-Consumo-e-Desperdicio.md)
-15. ✅ [UC09. Gerar Relatórios de Eficiência Nutricional](./UC09-Gerar-Relatorios-de-Eficiencia-Nutricional.md)
 18. ✅ [UC12. Monitorar Desperdício de Alimentos](./UC12-Monitorar-Desperdicio-de-Alimentos.md)
 19. ✅ [UC13.1. Criar Item de Estoque de Alimentos](./UC13.1-Criar-Item-de-Estoque-de-Alimentos.md)
 20. ✅ [UC13.2. Editar Item de Estoque de Alimentos](./UC13.2-Editar-Item-de-Estoque-de-Alimentos.md)
