@@ -15,13 +15,13 @@
 - ✅ para "concluído"
 - ✨ para "concluído e revisado"
 
-1. ✅ [UC01.1. Criar Cardápio](./UC01.1-Criar-Cardapio.md)
-2. ✅ [UC01.2. Editar Cardápio](./UC01.2-Editar-Cardapio.md)
-3. ✅ [UC01.3. Excluir Cardápio](./UC01.3-Excluir-Cardapio.md)
-4. ✅ [UC01.4. Listar Cardápios](./UC01.4-Listar-Cardapios.md)
-7. ✅ [UC04. Realizar Login](./UC04-Realizar-Login.md)
-8. ❌ [UC05. Logoff](./UC05-Logoff.md)
-9. ✅ [UC06.1. Criar Conta de Usuário](./UC06.1-Criar-Conta-de-Usuario.md)
+1.  ✅ [UC01.1. Criar Cardápio](./UC01.1-Criar-Cardapio.md)
+2.  ✅ [UC01.2. Editar Cardápio](./UC01.2-Editar-Cardapio.md)
+3.  ✅ [UC01.3. Excluir Cardápio](./UC01.3-Excluir-Cardapio.md)
+4.  ✅ [UC01.4. Listar Cardápios](./UC01.4-Listar-Cardapios.md)
+7.  ✅ [UC04. Realizar Login](./UC04-Realizar-Login.md)
+8.  ✅ [UC05. Logoff](./UC05-Logoff.md)
+9.  ✅ [UC06.1. Criar Conta de Usuário](./UC06.1-Criar-Conta-de-Usuario.md)
 10. ✅ [UC06.2. Editar Conta de Usuário](./UC06.2-Editar-Conta-de-Usuario.md)
 11. ✅ [UC06.3. Excluir Conta de Usuário](./UC06.3-Excluir-Conta-de-Usuario.md)
 12. ✅ [UC06.4. Listar Contas de Usuário](./UC06.4-Listar-Contas-de-Usuario.md)
