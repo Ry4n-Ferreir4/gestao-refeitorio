@@ -1,6 +1,6 @@
 # Sistema de Controle de Refeitório Escolar
 
-## UC04. Realizar Login
+## UC02. Realizar Login
 
 Este caso de uso descreve as etapas necessárias para que o USUÁRIO faça o login no sistema
 
