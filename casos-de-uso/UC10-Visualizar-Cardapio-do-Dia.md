@@ -1,6 +1,6 @@
 # Sistema de Controle de Refeitório Escolar
 
-## UC012. Visualizar Cardápio do Dia
+## UC010. Visualizar Cardápio do Dia
 Este caso de uso descreve as etapas percorridas pelo usuário (aluno, funcionário, gestor, Administrador) para visualizar o cardápio do dia no sistema.
 
 ## Atores
