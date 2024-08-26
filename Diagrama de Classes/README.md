@@ -106,26 +106,16 @@ classDiagram
 
     Usuario "1" o-- "0..*" Relatorio : gera
     Usuario "1" o-- "0..*" PreparoDistribuicaoRefeicao : registra
-    Administrador "1" o-- "0..*" Cardapio : cria
-    Administrador "1" o-- "0..*" Cardapio : edita
-    Administrador "1" o-- "0..*" Cardapio : exclui
-    Administrador "1" o-- "0..*" Estoque : cria
-    Administrador "1" o-- "0..*" Estoque : edita
-    Administrador "1" o-- "0..*" Estoque : exclui
-    Administrador "1" o-- "0..*" Estoque : lista
-    Administrador "1" o-- "0..*" Relatorio : visualiza
+    Administrador "1" o-- "0..*" Cardapio : Gerencia
+    Administrador "1" o-- "0..*" Estoque : Gerencia
+    Administrador "1" o-- "0..*" Relatorio : Gerencia
     Gestor "1" o-- "0..*" Cardapio : cria
     Gestor "1" o-- "0..*" Cardapio : edita
-    Gestor "1" o-- "0..*" Cardapio : exclui
     Gestor "1" o-- "0..*" Estoque : cria
     Gestor "1" o-- "0..*" Estoque : edita
-    Gestor "1" o-- "0..*" Estoque : exclui
     Gestor "1" o-- "0..*" Estoque : lista
-    Gestor "1" o-- "0..*" Relatorio : visualiza
-    Nutricionista "1" o-- "0..*" Estoque : cria
-    Nutricionista "1" o-- "0..*" Estoque : edita
-    Nutricionista "1" o-- "0..*" Estoque : exclui
-    Nutricionista "1" o-- "0..*" Estoque : lista
+    Gestor "1" o-- "0..*" Relatorio : Gerencia
+    Nutricionista "1" o-- "0..*" Estoque : Gerencia
     Nutricionista "1" o-- "0..*" Relatorio : visualiza
     FuncionarioRefeitorio "1" o-- "0..*" PreparoDistribuicaoRefeicao : registra
     UsuarioNaoLogado "1" o-- "0..*" Cardapio : visualiza
