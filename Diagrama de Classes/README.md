@@ -106,9 +106,9 @@ classDiagram
 
     Usuario "1" o-- "0..*" Relatorio : gera
     Usuario "1" o-- "0..*" PreparoDistribuicaoRefeicao : registra
-    Administrador "1" o-- "0..*" Cardapio : Gerencia
-    Administrador "1" o-- "0..*" Estoque : Gerencia
-    Administrador "1" o-- "0..*" Relatorio : Gerencia
+    Administrador "1" o-- "0..*" Cardapio : gerencia
+    Administrador "1" o-- "0..*" Estoque : gerencia
+    Administrador "1" o-- "0..*" Relatorio : gerencia
     Gestor "1" o-- "0..*" Cardapio : gerencia
     Gestor "1" o-- "0..*" Estoque : gerencia
     Gestor "1" o-- "0..*" Relatorio : gerencia
