@@ -73,7 +73,9 @@ classDiagram
     - nome: string
     - dataInicio: Date
     - dataFim: Date
-    - alimentos: List<Alimento>
+    - alimentos: List<Refeicao>
+    + adicionarRefeicao(refeicao: Refeicao): void
+    + removerRefeicao(refeicao: Refeicao): void
     }
 
     class Alimento {
@@ -86,6 +88,7 @@ classDiagram
     - id: int
     - alimento: Alimento
     - quantidade: int
+    + atualizarQuantidade(novaQuantidade: int): void
     }
 
     class Relatorio {
@@ -94,6 +97,7 @@ classDiagram
     - dataInicio: Date
     - dataFim: Date
     - dados: string
+    + gerarDados(): void
     }
 
     class PreparoDistribuicaoRefeicao {
@@ -102,6 +106,15 @@ classDiagram
     - quantidadePreparada: int
     - quantidadeDistribuida: int
     - cardapio: Cardapio
+    + atualizarQuantidades(preparada: int, distribuida: int): void
+    }
+
+    class Refeicao {
+    - id: int
+    - nome: string
+    - alimentos: List<Alimento>
+    + adicionarAlimento(alimento: Alimento): void
+    + removerAlimento(alimento: Alimento): void
     }
 
     Usuario "1" o-- "0..*" Relatorio : gera
