@@ -1,6 +1,6 @@
 # Sistema de Controle de Refeitório Escolar
 
-## UC07. Gerar relatórios de consumo e desperdício.
+## UC05. Gerar relatórios de consumo e desperdício.
 
 Este caso de uso descreve as etapas percorridas pelo Gestor e Administrador para gerar relatórios de consumo e desperdício.
 
