@@ -1,6 +1,6 @@
 # Sistema de Controle de Refeitório Escolar
 
-## UC12. Monitorar Desperdício de Alimentos
+## UC06. Monitorar Desperdício de Alimentos
 
 Este caso de uso descreve as etapas necessárias para o Nutricionista/Gestor monitorar desperdício de alimentos.
 
