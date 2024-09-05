@@ -17,7 +17,6 @@ Não se aplica.
 
 ### Cenário principal
 #### Ações do ator (👷) e Ações do sistema (⚙️)
-Ações do ator () e Ações do sistema (⚙️)
 
 1. 👷 O USUÁRIO seleciona a opção “Esqueci minha senha”.
 2. 👷 Redirecionar o USUÁRIO para a página de redefinição de senha, com campos para a inserção dos dados necessários (ID de login e endereço de e-mail vinculado a conta).
