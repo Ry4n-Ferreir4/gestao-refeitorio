@@ -9,7 +9,7 @@ Este caso de uso descreve as etapas necessárias para que o Usuário não Logado
 Este caso de uso descreve o processo pelo qual um Usuário não Logado pode fazer login no sistema. O objetivo é permitir que um usuário autenticado acesse as funcionalidades do sistema.
 
 #### Atores
-- **Usuário não Logado**: Qualquer usuário que ainda não tenha realizado o login no sistema.
+- 👤 **Usuário não Logado**: Qualquer usuário que ainda não tenha realizado o login no sistema.
 
 #### Condições
 - **Pré-condições**: O usuário não pode estar logado no sistema.
