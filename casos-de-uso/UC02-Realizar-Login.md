@@ -18,9 +18,9 @@ Não se aplica.
 ### Cenário principal
 #### Ações do ator (👤) e Ações do sistema (⚙️)
 
-1. 👤 O USUÁRIO seleciona a opção “Esqueci minha senha”.
-2. 👤 Redirecionar o USUÁRIO para a página de redefinição de senha, com campos para a inserção dos dados necessários (ID de login e endereço de e-mail vinculado a conta).
-3. ⚙️ Mostrar mensagem de sucesso, pedindo para que o USUÁRIO confirme a redefinição de senha no endereço de Email vinculado.
+1. 👤 O USUÁRIO seleciona a opção “Fazer login”.
+2. 👤 Redirecionar o USUÁRIO para a página de login, com campos para a inserção dos dados necessários (ID de login e endereço de e-mail vinculado a conta).
+3. ⚙️ Mostrar mensagem de sucesso, pedindo para que o USUÁRIO confirme no endereço de Email vinculado.
 4. ⚙️ Mostrar mensagem de sucesso ao fazer login para o usuário.
 
 ### Restrições e validações
