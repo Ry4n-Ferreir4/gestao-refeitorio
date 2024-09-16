@@ -2,24 +2,24 @@
 
 ## UC02. Realizar Login
 
-Este caso de uso descreve as etapas necessárias para que o USUÁRIO faça o login no sistema
+Este caso de uso descreve as etapas necessárias para que o Usuário não Logado faça o login no sistema.
 
 ### Atores
-- 👷 Funcionários do Refeitório
+- 👤 Usuário não Logado
 
 ### Condições
 #### Pré-condições
-Não se aplica.
+O usuário não pode estar logado.
 
 #### Pós-condições
 Não se aplica.
 
 
 ### Cenário principal
-#### Ações do ator (👷) e Ações do sistema (⚙️)
+#### Ações do ator (👤) e Ações do sistema (⚙️)
 
-1. 👷 O USUÁRIO seleciona a opção “Esqueci minha senha”.
-2. 👷 Redirecionar o USUÁRIO para a página de redefinição de senha, com campos para a inserção dos dados necessários (ID de login e endereço de e-mail vinculado a conta).
+1. 👤 O USUÁRIO seleciona a opção “Esqueci minha senha”.
+2. 👤 Redirecionar o USUÁRIO para a página de redefinição de senha, com campos para a inserção dos dados necessários (ID de login e endereço de e-mail vinculado a conta).
 3. ⚙️ Mostrar mensagem de sucesso, pedindo para que o USUÁRIO confirme a redefinição de senha no endereço de Email vinculado.
 4. ⚙️ Mostrar mensagem de sucesso ao fazer login para o usuário.
 
@@ -28,7 +28,7 @@ Não se aplica.
 
 ### Cenários alternativos
 #### Cenário alternativo 1 – Redefinição de senha
-1. 👨‍💼 O USUÁRIO seleciona a opção “Esqueci minha senha”.
+1. 👤 O USUÁRIO seleciona a opção “Esqueci minha senha”.
 2. ⚙️ Redirecionar o USUÁRIO para a página de redefinição de senha, com campos para a inserção dos dados necessários (ID de login e endereço de e-mail vinculado a conta).
 3. ⚙️ Mostrar mensagem de sucesso, pedindo para que o USUÁRIO confirme a redefinição de senha no endereço de Email vinculado.
 
