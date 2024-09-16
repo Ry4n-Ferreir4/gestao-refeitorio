@@ -5,8 +5,8 @@
 Este caso de uso descreve as etapas necessárias para que o Gestor ou Nutricionista visualize relatórios de desperdício e estoque no sistema.
 
 ### Atores
-💼 Gestor
-👩‍🍳 Nutricionista
+- 💼 Gestor
+- 👩‍🍳 Nutricionista
 
 ### Condições
 #### Pré-condições
