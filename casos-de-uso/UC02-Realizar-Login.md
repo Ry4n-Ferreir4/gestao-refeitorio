@@ -1,50 +1,62 @@
 # Sistema de Controle de Refeitório Escolar
 
-## UC02. Realizar Login
-
 Este caso de uso descreve as etapas necessárias para que o Usuário não Logado faça o login no sistema.
 
-### Atores
-- 👤 Usuário não Logado
+## Casos de Uso
 
-### Condições
-#### Pré-condições
-O usuário não pode estar logado.
+### UC02. Realizar Login
 
-#### Pós-condições
-Não se aplica.
+Este caso de uso descreve o processo pelo qual um Usuário não Logado pode fazer login no sistema. O objetivo é permitir que um usuário autenticado acesse as funcionalidades do sistema.
 
+#### Atores
+- **Usuário não Logado**: Qualquer usuário que ainda não tenha realizado o login no sistema.
 
-### Cenário principal
-#### Ações do ator (👤) e Ações do sistema (⚙️)
+#### Condições
+- **Pré-condições**: O usuário não pode estar logado no sistema.
+- **Pós-condições**: O usuário deve estar autenticado e redirecionado para a página inicial do sistema.
 
-1. 👤 O USUÁRIO seleciona a opção “Fazer login”.
-2. 👤 Redirecionar o USUÁRIO para a página de login, com campos para a inserção dos dados necessários (ID de login e endereço de e-mail vinculado a conta).
-3. ⚙️ Mostrar mensagem de sucesso, pedindo para que o USUÁRIO confirme no endereço de Email vinculado.
-4. ⚙️ Mostrar mensagem de sucesso ao fazer login para o usuário.
+#### Cenário Principal
+1. **O USUÁRIO seleciona** a opção “Fazer login”.
+2. **O sistema exibe** a página de login com campos para inserção do e-mail e senha.
+3. **O USUÁRIO insere** o e-mail e a senha e envia as informações para o sistema.
+4. **O sistema valida** as informações fornecidas.
+5. **Se as informações estiverem corretas**, o sistema envia um e-mail de confirmação para o e-mail fornecido.
+6. **O sistema solicita** que o USUÁRIO confirme a autenticação clicando no link enviado por e-mail.
+7. **O USUÁRIO acessa** o e-mail, clica no link de confirmação e retorna ao sistema.
+8. **O sistema verifica** a confirmação do link e completa o processo de login.
+9. **O sistema notifica** o USUÁRIO sobre o login bem-sucedido e redireciona-o para a página inicial.
 
-### Restrições e validações
-Não se aplica.
+#### Restrições e Validações
+- O e-mail deve ser válido e estar associado a uma conta existente.
+- A senha deve corresponder à senha registrada para o e-mail fornecido.
+- O link de confirmação tem um tempo de expiração.
 
-### Cenários alternativos
-#### Cenário alternativo 1 – Redefinição de senha
-1. 👤 O USUÁRIO seleciona a opção “Esqueci minha senha”.
-2. ⚙️ Redirecionar o USUÁRIO para a página de redefinição de senha, com campos para a inserção dos dados necessários (ID de login e endereço de e-mail vinculado a conta).
-3. ⚙️ Mostrar mensagem de sucesso, pedindo para que o USUÁRIO confirme a redefinição de senha no endereço de Email vinculado.
+#### Cenários Alternativos
+- **Cenário Alternativo 1 – Redefinição de Senha**
+  1. **O USUÁRIO seleciona** a opção “Esqueci minha senha”.
+  2. **O sistema redireciona** o USUÁRIO para a página de redefinição de senha, com campos para a inserção do e-mail.
+  3. **O sistema envia** um e-mail de redefinição de senha para o endereço fornecido.
+  4. **O USUÁRIO acessa** o e-mail, clica no link de redefinição de senha e insere uma nova senha.
+  5. **O sistema valida** a redefinição de senha e confirma a atualização.
 
-### Exceções
-#### Exceção 1 – Id de usuário e/ou senha incorretas
-1. ⚙️ Informar ao USUÁRIO que as informações de login fornecidas não foram válidas.
-2. ⚙️ Voltar à tela de login.
+- **Cenário Alternativo 2 – Tentativas Múltiplas Falhas de Login**
+  1. **O USUÁRIO insere** informações incorretas várias vezes.
+  2. **O sistema informa** sobre o excesso de tentativas falhas.
+  3. **O sistema executa** o caso de uso "Acesso Bloqueado", enviando uma mensagem detalhada sobre o bloqueio e orientações para desbloqueio.
 
-#### Exceção 2 – Falha na redefinição de senha
-1. ⚙️ Mostrar mensagem de falha ao tentar redefinir a senha pois os dados inseridos não estão vinculados à uma conta cadastrada.
-2. ⚙️ Mostrar opções de voltar para a tela de login e de tentar novamente a redefinição de senha.
+#### Exceções
+- **Exceção 1 – ID de Usuário e/ou Senha Incorretos**
+  1. **O sistema informa** que as informações de login fornecidas não são válidas.
+  2. **O sistema retorna** à tela de login, permitindo que o USUÁRIO tente novamente.
 
-#### Exceção 3 – Múltiplas tentativas falhas de fazer login
-1. ⚙️  Informar ao USUÁRIO que houve um excesso de tentativas falhas de fazer login no sistema..
-2. ⚙️  Executar caso de uso ACESSO BLOQUEADO, enviando mensagem detalhando o erro correspondente.
+- **Exceção 2 – Falha na Redefinição de Senha**
+  1. **O sistema informa** que os dados inseridos não estão vinculados a uma conta registrada.
+  2. **O sistema apresenta** opções para voltar à tela de login ou tentar novamente a redefinição de senha.
 
-#### Exceção 4  – Tentativa de login à um usuário que já está logado
-1. ⚙️ Informar ao USUÁRIO que o login não foi possível devido à conta associada às informações de login fornecidas já estar conectada ao sistema.
-2. ⚙️ Executar caso de uso ACESSO BLOQUEADO, enviando mensagem detalhando o erro correspondente.
+- **Exceção 3 – Múltiplas Tentativas Falhas de Login**
+  1. **O sistema informa** sobre o excesso de tentativas falhas.
+  2. **O sistema executa** o caso de uso "Acesso Bloqueado", enviando uma mensagem detalhada sobre o erro e orientações para desbloqueio.
+
+- **Exceção 4 – Tentativa de Login para um Usuário Já Logado**
+  1. **O sistema informa** que a conta associada às informações de login fornecidas já está conectada ao sistema.
+  2. **O sistema executa** o caso de uso "Acesso Bloqueado", enviando uma mensagem detalhada sobre o erro e orientações para resolução.
