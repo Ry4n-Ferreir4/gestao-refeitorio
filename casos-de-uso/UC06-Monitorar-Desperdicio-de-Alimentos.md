@@ -2,10 +2,10 @@
 
 ## UC06. Monitorar Desperdício de Alimentos
 
-Este caso de uso descreve as etapas necessárias para o Nutricionista/Gestor monitorar desperdício de alimentos.
+Este caso de uso descreve as etapas necessárias para o Administrador/Gestor monitorar desperdício de alimentos.
 
 ### Atores
-- 👩‍🍳 Nutricionista
+- 👨‍💼 Administrador
 - 💼 Gestor
 
 ### Condições
@@ -17,17 +17,17 @@ Este caso de uso descreve as etapas necessárias para o Nutricionista/Gestor mon
 - Não se aplica.
 
 ### Cenário principal
-#### Ações do ator (👩‍🍳💼) e Ações do sistema (⚙️)
-1. 👩‍🍳💼 O usuário navega até a seção de relatórios gerados.
+#### Ações do ator (👨‍💼💼) e Ações do sistema (⚙️)
+1. 👨‍💼💼 O usuário navega até a seção de relatórios gerados.
 2. ⚙️ O sistema exibe uma lista de opções de relatórios gerados.
-3. 👩‍🍳💼 O usuário seleciona a opção de consumo e desperdício.
-4. 👩‍🍳💼 O usuário define os dados do relatório, como:
+3. 👨‍💼💼 O usuário seleciona a opção de consumo e desperdício.
+4. 👨‍💼💼 O usuário define os dados do relatório, como:
    1. Tipo de refeição (almoço, lanche, janta);
    2. Tipo de alimento.
    3. Data.
 5. ⚙️ O sistema procura relatório com esses dados.
 6. ⚙️ O sistema disponibiliza opção de download.
-7. 👩‍🍳💼 O usuário visualiza e opta por exportar em formatos como PDF ou Excel.
+7. 👨‍💼💼 O usuário visualiza e opta por exportar em formatos como PDF ou Excel.
 8. ⚙️ O sistema exibe mensagem de conclusão.
 
 ### Restrições e validações
@@ -37,7 +37,7 @@ Este caso de uso descreve as etapas necessárias para o Nutricionista/Gestor mon
 #### Cenário alternativo 1 – Relatório não existente
 1. ⚙️ O sistema detecta que não há relatório com os dados definidos.
    1. ⚙️ O sistema informa o usuário.
-   2. 💼 O usuário escolhe outros dados.
+   2. 👨‍💼💼 O usuário escolhe outros dados.
    3. ⚙️ Retorna ao passo 5 do cenário principal.
 
 ### Exceções
