@@ -13,10 +13,14 @@ classDiagram
     - email: string
     - senha: string
     - tipo: string
+    - logado: Boolean
     + autenticar(): Boolean
     + realizarLogin(email: string, senha: string): Boolean
     + realizarLogoff(): void
     + visualizarCardapioDoDia(): Cardapio
+    + confirmarLogin(email: string): Boolean
+    + redefinirSenha(email: string): Boolean
+    + verificarConfirmacao(email: string): Boolean
     }
 
     class Administrador {
@@ -129,4 +133,4 @@ classDiagram
     Nutricionista "1" o-- "0..*" Relatorio : visualiza
     FuncionarioRefeitorio "1" o-- "0..*" PreparoDistribuicaoRefeicao : registra
     UsuarioNaoLogado "1" o-- "0..*" Cardapio : visualiza
-```
+
