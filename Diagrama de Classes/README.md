@@ -14,6 +14,7 @@ classDiagram
     - senha: string
     - tipo: string
     + autenticar(): Boolean
+    + realizarLogin(email: string, senha: string): Boolean
     + realizarLogoff(): void
     + visualizarCardapioDoDia(): Cardapio
     }
@@ -65,7 +66,6 @@ classDiagram
 
     class UsuarioNaoLogado {
     - tipo: string = "UsuarioNaoLogado"
-    + realizarLogin(email: string, senha: string): Boolean
     }
 
     class Cardapio {
