@@ -14,7 +14,6 @@ classDiagram
     - senha: string
     - tipo: string
     - logado: Boolean
-    + autenticar(): Boolean
     + realizarLogin(email: string, senha: string): Boolean
     + realizarLogoff(): void
     + visualizarCardapioDoDia(): Cardapio
@@ -23,10 +22,13 @@ classDiagram
     + verificarConfirmacao(email: string): Boolean
     }
 
-    class Validdar {
-    - tipo: string = "Validar"
+    class Banco de Dados {
+    + validarDadosDB(email: string, senha: string) : Boolean
+    }
+
+    class handleValidacao {
+    + autenticar(): Boolean
     + validarDados(email: string, senha: string) : Boolean
-    + validarConfirmacao(email: string) : Boolean
     }
     
     class Administrador {
