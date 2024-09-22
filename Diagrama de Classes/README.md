@@ -24,6 +24,7 @@ classDiagram
 
     class Banco de Dados {
     + validarDadosDB(email: string, senha: string) : Boolean
+    + cardapioDisponivel() : Cardapio
     }
 
     class handleValidacao {
