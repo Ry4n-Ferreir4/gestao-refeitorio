@@ -23,6 +23,11 @@ classDiagram
     + verificarConfirmacao(email: string): Boolean
     }
 
+    class Validdar {
+    + validarDados(email: string, senha: string) : Boolean
+    + validarConfirmacao(email: string) : Boolean
+    }
+    
     class Administrador {
     - tipo: string = "Administrador"
     + criarCardapio(cardapio: Cardapio): void
