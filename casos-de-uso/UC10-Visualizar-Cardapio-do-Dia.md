@@ -21,10 +21,11 @@ O cardápio do dia foi visualizado com sucesso.
 ### Ações do ator (👨‍💼 / 👤 / 👷 / 💼 / 👩‍🍳 ) e Ações do sistema (⚙️)
 1. 👨‍💼 / 👤 / 👷 / 💼 / 👩‍🍳  Seleciona a opção "Visualizar Cardápio do Dia" no menu principal.
 2. ⚙️ Exibe os cardápios completo do dia, incluindo as refeições (Lanche da manhã, almoço, lanche da tarde, jantar) e as opções de alimentos disponíveis em cada refeição.
-3. 👨‍💼 / 👤 / 👷 / 💼 / 👩‍🍳 Visualiza o cardápio detalhado, com informações sobre os pratos, ingredientes, e possíveis alertas de alérgenos.
-4. ⚙️ Exibe o cardápio correspondente ao período selecionado.
+3. 👨‍💼 / 👤 / 👷 / 💼 / 👩‍🍳 Visualiza o cardápio detalhado com as refeições.
+4. ⚙️ Exibe o cardápio do dia.
+   
 ## Restrições e validações
-1. O cardápio deve ser atualizado diariamente pelo sistema, com base nas informações fornecidas pelo Nutricionista.
+1. O cardápio deve ser atualizado diariamente pelo sistema.
 
 
 ## Cenários alternativos
