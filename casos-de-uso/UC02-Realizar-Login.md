@@ -18,15 +18,15 @@ Este caso de uso descreve o processo pelo qual um Usuário não Logado pode faze
 
 ### Cenário Principal
 #### Ações do ator (👤) e Ações do sistema (⚙️)
-1.👤 O USUÁRIO seleciona a opção “Fazer login”.
-2.⚙️ O sistema exibe a página de login com campos para inserção do e-mail e senha.
-3.👤 O USUÁRIO insere o e-mail e a senha e envia as informações para o sistema.
-4.⚙️ O sistema valida as informações fornecidas.
-5.⚙️ O sistema envia um e-mail de confirmação para o e-mail fornecido.
-6.⚙️ O sistema solicita que o USUÁRIO confirme a autenticação clicando no link enviado por e-mail.
-7.👤 O USUÁRIO acessa o e-mail, clica no link de confirmação e retorna ao sistema.
-8.⚙️ O sistema verifica a confirmação do link e completa o processo de login.
-9.⚙️ O sistema notifica o USUÁRIO sobre o login bem-sucedido e redireciona-o para a página inicial.
+1. 👤 O USUÁRIO seleciona a opção “Fazer login”.
+2. ⚙️ O sistema exibe a página de login com campos para inserção do e-mail e senha.
+3. 👤 O USUÁRIO insere o e-mail e a senha e envia as informações para o sistema.
+4. ⚙️ O sistema valida as informações fornecidas.
+5. ⚙️ O sistema envia um e-mail de confirmação para o e-mail fornecido.
+6. ⚙️ O sistema solicita que o USUÁRIO confirme a autenticação clicando no link enviado por e-mail.
+7. 👤 O USUÁRIO acessa o e-mail, clica no link de confirmação e retorna ao sistema.
+8. ⚙️ O sistema verifica a confirmação do link e completa o processo de login.
+9. ⚙️ O sistema notifica o USUÁRIO sobre o login bem-sucedido e redireciona-o para a página inicial.
 
 #### Restrições e Validações
 - O e-mail deve ser válido e estar associado a uma conta existente.
