@@ -34,30 +34,30 @@ Este caso de uso descreve o processo pelo qual um Usuário não Logado pode faze
 
 #### Cenários Alternativos
 #### Cenário alternativo 1 – Redefinição de Senha**
-  1.👤 O USUÁRIO seleciona** a opção “Esqueci minha senha”.
-  2.⚙️ O sistema redireciona** o USUÁRIO para a página de redefinição de senha, com campos para a inserção do e-mail.
-  3.⚙️ O sistema envia** um e-mail de redefinição de senha para o endereço fornecido.
-  4.👤 O USUÁRIO acessa** o e-mail, clica no link de redefinição de senha e insere uma nova senha.
-  5.⚙️ O sistema valida** a redefinição de senha e confirma a atualização.
+  1. 👤 O USUÁRIO seleciona** a opção “Esqueci minha senha”.
+  2. ⚙️ O sistema redireciona** o USUÁRIO para a página de redefinição de senha, com campos para a inserção do e-mail.
+  3. ⚙️ O sistema envia** um e-mail de redefinição de senha para o endereço fornecido.
+  4. 👤 O USUÁRIO acessa** o e-mail, clica no link de redefinição de senha e insere uma nova senha.
+  5. ⚙️ O sistema valida** a redefinição de senha e confirma a atualização.
 
 #### Cenário alternativo 2 – Tentativas Múltiplas Falhas de Login**
-  1.👤 O USUÁRIO insere informações incorretas várias vezes.
-  2.⚙️ O sistema informa sobre o excesso de tentativas falhas.
-  3.⚙️ O sistema executa o caso de uso "Acesso Bloqueado", enviando uma mensagem detalhada sobre o bloqueio e orientações para desbloqueio.
+  1. 👤 O USUÁRIO insere informações incorretas várias vezes.
+  2. ⚙️ O sistema informa sobre o excesso de tentativas falhas.
+  3. ⚙️ O sistema executa o caso de uso "Acesso Bloqueado", enviando uma mensagem detalhada sobre o bloqueio e orientações para desbloqueio.
 
 #### Exceções
 #### Exceção 1 – ID de Usuário e/ou Senha Incorretos**
-  1.⚙️ O sistema informa que as informações de login fornecidas não são válidas.
-  2.⚙️ O sistema retorna à tela de login, permitindo que o USUÁRIO tente novamente.
+  1. ⚙️ O sistema informa que as informações de login fornecidas não são válidas.
+  2. ⚙️ O sistema retorna à tela de login, permitindo que o USUÁRIO tente novamente.
 
 #### Exceção 2 – Falha na Redefinição de Senha**
-  1.⚙️ O sistema informa que os dados inseridos não estão vinculados a uma conta registrada.
-  2.⚙️ O sistema apresenta opções para voltar à tela de login ou tentar novamente a redefinição de senha.
+  1. ⚙️ O sistema informa que os dados inseridos não estão vinculados a uma conta registrada.
+  2. ⚙️ O sistema apresenta opções para voltar à tela de login ou tentar novamente a redefinição de senha.
 
 #### Exceção 3 – Múltiplas Tentativas Falhas de Login**
-  1.⚙️ O sistema informa sobre o excesso de tentativas falhas.
-  2.⚙️ O sistema executa o caso de uso "Acesso Bloqueado", enviando uma mensagem detalhada sobre o erro e orientações para desbloqueio.
+  1. ⚙️ O sistema informa sobre o excesso de tentativas falhas.
+  2. ⚙️ O sistema executa o caso de uso "Acesso Bloqueado", enviando uma mensagem detalhada sobre o erro e orientações para desbloqueio.
 
 #### Exceção 4 – Tentativa de Login para um Usuário Já Logado**
-  1.⚙️ O sistema informa que a conta associada às informações de login fornecidas já está conectada ao sistema.
-  2.⚙️ O sistema executa o caso de uso "Acesso Bloqueado", enviando uma mensagem detalhada sobre o erro e orientações para resolução.
+  1. ⚙️ O sistema informa que a conta associada às informações de login fornecidas já está conectada ao sistema.
+  2. ⚙️ O sistema executa o caso de uso "Acesso Bloqueado", enviando uma mensagem detalhada sobre o erro e orientações para resolução.
