@@ -24,6 +24,7 @@ classDiagram
     }
 
     class Validdar {
+    - tipo: string = "Validar"
     + validarDados(email: string, senha: string) : Boolean
     + validarConfirmacao(email: string) : Boolean
     }
