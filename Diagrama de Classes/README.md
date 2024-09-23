@@ -23,7 +23,7 @@ classDiagram
     + verificarConfirmacao(email: string): Boolean
     }
 
-    class Banco de Dados {
+    class DB {
     + validarDadosDB(email: string, senha: string) : Boolean
     + cardapioDisponivel() : Cardapio
     }
@@ -35,7 +35,7 @@ classDiagram
     
     class Administrador {
     - tipo: string = "Administrador"
-    + criarCardapio(cardapio: Cardapio): void
+    + criarCardapio(cardapio: Cardapio): Boolean
     + editarCardapio(cardapio: Cardapio): void
     + excluirCardapio(cardapio: Cardapio): void
     + listarCardapios(): List<Cardapio>
@@ -53,13 +53,14 @@ classDiagram
     + editarItemEstoque(item: Estoque): void
     + excluirItemEstoque(item: Estoque): void
     + listarItensEstoque(): List<Estoque>
+    + criarCardapio(cardapio: Cardapio): Boolean
     + visualizarRelatorioDesperdicioEEstoque(): Relatorio
     + registrarPreparoEDistribuicao(refeicao: PreparoDistribuicaoRefeicao): void
     }
 
     class Gestor {
     - tipo: string = "Gestor"
-    + criarCardapio(cardapio: Cardapio): void
+    + criarCardapio(cardapio: Cardapio): Boolean
     + editarCardapio(cardapio: Cardapio): void
     + excluirCardapio(cardapio: Cardapio): void
     + listarCardapios(): List<Cardapio>
