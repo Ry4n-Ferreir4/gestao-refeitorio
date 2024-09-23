@@ -16,6 +16,7 @@ classDiagram
     - logado: Boolean
     + realizarLogin(email: string, senha: string): Boolean
     + realizarLogoff(): void
+    + confirmarLogoff(): Boolean
     + visualizarCardapioDoDia(): Cardapio
     + confirmarLogin(email: string): Boolean
     + redefinirSenha(email: string): Boolean
