@@ -1,6 +1,6 @@
 # Sistema de Controle de Refeitório Escolar
 
-## UC05. Realizar Logoff
+## UC03. Realizar Logoff
 Este caso de uso descreve as etapas necessárias para que o USUÁRIO (Administrador, Nutricionista, Gestor, Funcionário do Refeitório) para realizar o logoff do sistema.
 
 ## Atores
