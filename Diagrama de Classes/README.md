@@ -23,11 +23,6 @@ classDiagram
     + verificarConfirmacao(email: string): Boolean
     }
 
-    class DB {
-    + validarDadosDB(email: string, senha: string) : Boolean
-    + cardapioDisponivel() : Cardapio
-    }
-
     class handleValidacao {
     + autenticar(): Boolean
     + validarDados(email: string, senha: string) : Boolean
