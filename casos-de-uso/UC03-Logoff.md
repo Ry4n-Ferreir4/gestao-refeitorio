@@ -21,6 +21,7 @@ O usuário foi desconectado do sistema com sucesso.
 4. ⚙️ Finaliza a sessão do usuário no sistema.
 5. ⚙️ Redireciona o usuário para a tela de login.
 6. ⚙️ Exibe uma mensagem de confirmação de logoff bem-sucedido.
+
 ## Restrições e validações
 O usuário deve estar autenticado no sistema para realizar o logoff.
 
